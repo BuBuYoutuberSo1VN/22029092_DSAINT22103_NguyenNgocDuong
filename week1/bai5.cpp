@@ -20,3 +20,10 @@ int main() {
     }
     return 0;
 }
+
+// PHAN TICH DO PHUC TAP (1 <= n <= 100)
+// Best / average / worst Time: O(n), deu phai tinh tong va kiem tra n phan tu.
+// In it hay nhieu phan tu khong thay doi bac O(n).
+// Memory phu: O(1) trong moi truong hop, chi dung them vai bien.
+// Mang tinh a[100] trong code chiem O(1) bo nho cap phat (kich thuoc co dinh).
+// Neu tong quat hoa mang co n phan tu: tong memory O(n).
