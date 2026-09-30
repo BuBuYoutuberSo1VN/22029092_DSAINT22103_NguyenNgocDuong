@@ -48,3 +48,18 @@ int main() {
     xuat(a, n);
     return 0;
 }
+
+// PHAN TICH DO PHUC TAP (chi so bat dau tu 0)
+// Ham xoa, voi k hop le: dich n-k-1 phan tu; Time O(n-k).
+// Best: xoa cuoi (k = n-1), O(1).
+// Average: O(n) neu moi vi tri xoa co xac suat nhu nhau.
+// Worst: xoa dau (k = 0), O(n).
+// Ham chen, voi m hop le va mang con cho: dich n-m phan tu; Time O(n-m+1).
+// Best: chen cuoi (m = n), O(1).
+// Average: O(n) neu moi vi tri chen co xac suat nhu nhau.
+// Worst: chen dau (m = 0), O(n).
+// Vi tri khong hop le hoac mang day khi chen: O(1), tra ve ngay.
+// Nhap/xuat va ca chuong trinh: O(n) trong moi truong hop.
+// Memory phu: O(1) trong moi truong hop, chi dung them vai bien.
+// Mang tinh a[100] trong code chiem O(1) bo nho cap phat (kich thuoc co dinh).
+// Neu tong quat hoa mang co n phan tu: tong memory O(n).
