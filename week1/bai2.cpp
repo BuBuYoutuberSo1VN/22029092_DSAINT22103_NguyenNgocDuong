@@ -26,3 +26,13 @@ int main() {
     }
     return 0;
 }
+
+// PHAN TICH DO PHUC TAP (n: so phan tu)
+// sapXep so sanh n*(n-1)/2 cap phan tu trong moi truong hop.
+// Best (da tang dan): O(n^2), khong doi cho nhung van so sanh het.
+// Average (thu tu ngau nhien): O(n^2).
+// Worst (vi du giam dan): O(n^2), co nhieu lan doi cho.
+// Ca chuong trinh: O(n^2); nhap va xuat mang la O(n).
+// Memory phu: O(1) trong moi truong hop, chi dung them vai bien.
+// Mang tinh a[100] trong code chiem O(1) bo nho cap phat (kich thuoc co dinh).
+// Neu tong quat hoa mang co n phan tu: tong memory O(n).
