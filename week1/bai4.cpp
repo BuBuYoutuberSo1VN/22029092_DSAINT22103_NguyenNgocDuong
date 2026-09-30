@@ -36,3 +36,12 @@ int main() {
     rutGon(a, b);
     return 0;
 }
+
+// PHAN TICH DO PHUC TAP
+// Goi A = |a|, B = |b|; coi phep chia va lay du la O(1).
+// Best: O(1) khi b = 0 (tu choi mau), a = 0, hoac A chia het B.
+// Worst: O(log(1 + min(A, B))); so Fibonacci lien tiep can nhieu buoc Euclid.
+// Average: khong co gia tri duy nhat neu chua quy dinh phan bo dau vao.
+// Can tren cho moi dau vao: O(1 + log(1 + min(A, B))).
+// Rut gon va chuan hoa dau sau UCLN: O(1).
+// Memory phu va tong memory: O(1) trong moi truong hop.
